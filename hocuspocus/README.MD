@@ -3,6 +3,8 @@
 ## Overview
 This project is to create a halloween prop of the book in the movie Hocus Pocus. It uses an audrino pro mini micro controller and an HC-06 bluetooth LE slave. The bluetooth LE device is controled from an android phone app. Sorry Apple IPhone's they don't work with the HC-06 I built this project on.
 
+This uses the modified animitronic eye [3d printentd Thingiverse print](https://www.thingiverse.com/thing:3190570)
+
 ## Hardware Requirements
 1. One(1) Audrino Pro mini board ATMEGA328P 16mhz 5v board. [Order Pro Mini](https://smile.amazon.com/gp/product/B015MGHLNA/ref=ppx_yo_dt_b_asin_title_o06_s02?ie=UTF8&psc=1)
 1. One(1) HC-06 Bluetooth 2.0 SPP Wireless BT module. [Order HC-06](https://smile.amazon.com/gp/product/B074J5WMH1/ref=ppx_yo_dt_b_asin_title_o06_s01?ie=UTF8&psc=1)
