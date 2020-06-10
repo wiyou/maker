@@ -4,13 +4,16 @@
 The program is controlled by the HC-06 bluetooth slave. The audrino program loops through and executes a series of actions on the servo.
 
 ## Building
-The following circuit diagram is used:
+The following circuit diagram is used (ignore the light dashed lines):
+![circuit diagram](animatronic-eye_schem.png)
+
+This laid out on a breadboard as an example. 
 ![circuit diagram](animatronic-eye_bb.png)
 
-Generally, connect the the VCC from the pro-mini to the VCC on the HC-06 module.
-Connect the GND pin to the HC-06 module's GND.
+Generally, connect the the VCC from the pro-mini to the VCC on the HC-06 or HC-05  module.
+Connect the GND pin to the HC-06/HC-05 module's GND.
 
-Since we are using the Software Serial. We will connect to any of the Pro-mini's digital pins. In this case I connected pin 6 on the pro-mini to the HC-06 TX pin. 
+Since we are using the Software Serial, We will connect to any of the Pro-mini's digital pins. In this case I connected pin 6 on the pro-mini to the HC-06 TX pin. 
 
 Then connect pin 7 on the pro-mini to the HC-06 RX pin,
 
