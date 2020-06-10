@@ -5,8 +5,7 @@ The program is controlled by the HC-06 bluetooth slave. The audrino program loop
 
 ## Building
 The following circuit diagram is used:
-![circuit diagram](arduino-pro-mini-bb.png)
-
+![circuit diagram](animatronic-eye_bb.png)
 
 Generally, connect the the VCC from the pro-mini to the VCC on the HC-06 module.
 Connect the GND pin to the HC-06 module's GND.
